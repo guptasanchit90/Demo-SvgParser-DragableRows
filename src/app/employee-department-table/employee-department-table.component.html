@@ -1,0 +1,11 @@
+<h2>Departments and their Employees</h2>
+
+<h3>DC Super Heros</h3>
+<div class="dcSuperHeros" [sortablejs]="dcSuperHeros" [sortablejsOptions]="options">
+  <div class="hero" *ngFor="let item of dcSuperHeros">{{ item }}</div>
+</div>
+
+<h3>Marvel Super Heros</h3>
+<div class="marvelSuperHeros" [sortablejs]="marvelSuperHeros" [sortablejsOptions]="options">
+  <div class="hero" *ngFor="let item of marvelSuperHeros">{{ item }}</div>
+</div>

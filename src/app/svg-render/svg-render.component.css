@@ -1,0 +1,44 @@
+.main-bg {
+    fill: #DD0031;
+}
+
+.right-bg {
+    fill: #C3002F;
+}
+
+.foreground-letter {
+    fill: #FFFFFF;
+}
+
+svg{
+  padding: 10px;
+}
+
+.table-container{
+    height: 75vh;
+    width: 100%;
+    overflow: auto;
+}
+table {
+    width: 100%;
+  }
+
+  td.mat-column-position {
+    width: 20px;
+    padding-right: 4px;
+  }
+
+  td.mat-column-childrenCount {
+    width: 20px;
+    padding-right: 4px;
+  }
+
+  td.mat-column-name {
+    width: 20px;
+    padding-right: 4px;
+  }
+
+  td.mat-column-html {
+    width: 60px;
+    padding: 4px;
+  }
